@@ -19,11 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     DragonKeyboardFirmwareUpdater
 
-# aptX
-PRODUCT_COPY_FILES += \
-    vendor/google/dragon/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
-    vendor/google/dragon/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so
-
 PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/system/etc/sysconfig/nexus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/nexus.xml
 
